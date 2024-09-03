@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+*.env
+
+# Go
+services/api/vendor/
+*.exe
+*.test
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+
+# AWS
+.aws/
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Misc
+.DS_Store
+*.npy
+*.parquet
